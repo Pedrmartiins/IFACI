@@ -1,0 +1,10 @@
+C:\Users\Aluno\Desktop\Timer\pisca\pisca\bin\Debug\pisca.exe.config
+C:\Users\Aluno\Desktop\Timer\pisca\pisca\bin\Debug\pisca.exe
+C:\Users\Aluno\Desktop\Timer\pisca\pisca\bin\Debug\pisca.pdb
+C:\Users\Aluno\Desktop\Timer\pisca\pisca\obj\Debug\pisca.csproj.AssemblyReference.cache
+C:\Users\Aluno\Desktop\Timer\pisca\pisca\obj\Debug\pisca.Form1.resources
+C:\Users\Aluno\Desktop\Timer\pisca\pisca\obj\Debug\pisca.Properties.Resources.resources
+C:\Users\Aluno\Desktop\Timer\pisca\pisca\obj\Debug\pisca.csproj.GenerateResource.cache
+C:\Users\Aluno\Desktop\Timer\pisca\pisca\obj\Debug\pisca.csproj.CoreCompileInputs.cache
+C:\Users\Aluno\Desktop\Timer\pisca\pisca\obj\Debug\pisca.exe
+C:\Users\Aluno\Desktop\Timer\pisca\pisca\obj\Debug\pisca.pdb

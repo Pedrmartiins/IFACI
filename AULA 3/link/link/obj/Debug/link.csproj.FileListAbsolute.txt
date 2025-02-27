@@ -1,0 +1,10 @@
+C:\Users\Aluno\Desktop\Timer\link\link\bin\Debug\link.exe.config
+C:\Users\Aluno\Desktop\Timer\link\link\bin\Debug\link.exe
+C:\Users\Aluno\Desktop\Timer\link\link\bin\Debug\link.pdb
+C:\Users\Aluno\Desktop\Timer\link\link\obj\Debug\link.csproj.AssemblyReference.cache
+C:\Users\Aluno\Desktop\Timer\link\link\obj\Debug\link.Form1.resources
+C:\Users\Aluno\Desktop\Timer\link\link\obj\Debug\link.Properties.Resources.resources
+C:\Users\Aluno\Desktop\Timer\link\link\obj\Debug\link.csproj.GenerateResource.cache
+C:\Users\Aluno\Desktop\Timer\link\link\obj\Debug\link.csproj.CoreCompileInputs.cache
+C:\Users\Aluno\Desktop\Timer\link\link\obj\Debug\link.exe
+C:\Users\Aluno\Desktop\Timer\link\link\obj\Debug\link.pdb

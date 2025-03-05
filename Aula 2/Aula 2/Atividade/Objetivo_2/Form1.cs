@@ -28,5 +28,18 @@ namespace Objetivo_2
             MessageBox.Show("Botão acionado\nStatus: Desligado");
             textBox1.Text = "DESLIGADO";
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Erro ao Acionar o Botão");
+            textBox1.Text = "Erro";
+
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+           Application.Exit();
+        }
     }
 }

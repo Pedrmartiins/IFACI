@@ -8,3 +8,13 @@ C:\Users\Aluno\Downloads\Aula 2\Atividade\Objetivo_2\obj\Debug\Objetivo_2.csproj
 C:\Users\Aluno\Downloads\Aula 2\Atividade\Objetivo_2\obj\Debug\Objetivo_2.csproj.CoreCompileInputs.cache
 C:\Users\Aluno\Downloads\Aula 2\Atividade\Objetivo_2\obj\Debug\Objetivo_2.exe
 C:\Users\Aluno\Downloads\Aula 2\Atividade\Objetivo_2\obj\Debug\Objetivo_2.pdb
+C:\Users\Aluno\Desktop\IFACI\Aula 2\Aula 2\Atividade\Objetivo_2\bin\Debug\Objetivo_2.exe.config
+C:\Users\Aluno\Desktop\IFACI\Aula 2\Aula 2\Atividade\Objetivo_2\bin\Debug\Objetivo_2.exe
+C:\Users\Aluno\Desktop\IFACI\Aula 2\Aula 2\Atividade\Objetivo_2\bin\Debug\Objetivo_2.pdb
+C:\Users\Aluno\Desktop\IFACI\Aula 2\Aula 2\Atividade\Objetivo_2\obj\Debug\Objetivo_2.csproj.AssemblyReference.cache
+C:\Users\Aluno\Desktop\IFACI\Aula 2\Aula 2\Atividade\Objetivo_2\obj\Debug\Objetivo_2.Form1.resources
+C:\Users\Aluno\Desktop\IFACI\Aula 2\Aula 2\Atividade\Objetivo_2\obj\Debug\Objetivo_2.Properties.Resources.resources
+C:\Users\Aluno\Desktop\IFACI\Aula 2\Aula 2\Atividade\Objetivo_2\obj\Debug\Objetivo_2.csproj.GenerateResource.cache
+C:\Users\Aluno\Desktop\IFACI\Aula 2\Aula 2\Atividade\Objetivo_2\obj\Debug\Objetivo_2.csproj.CoreCompileInputs.cache
+C:\Users\Aluno\Desktop\IFACI\Aula 2\Aula 2\Atividade\Objetivo_2\obj\Debug\Objetivo_2.exe
+C:\Users\Aluno\Desktop\IFACI\Aula 2\Aula 2\Atividade\Objetivo_2\obj\Debug\Objetivo_2.pdb

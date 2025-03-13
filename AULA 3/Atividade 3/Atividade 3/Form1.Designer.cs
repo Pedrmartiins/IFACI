@@ -38,15 +38,21 @@
             this.label2 = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.label3 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
+            this.vermelho1 = new System.Windows.Forms.Timer(this.components);
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.vermelho2 = new System.Windows.Forms.Timer(this.components);
+            this.amarelo = new System.Windows.Forms.Timer(this.components);
+            this.verde1 = new System.Windows.Forms.Timer(this.components);
+            this.verde2 = new System.Windows.Forms.Timer(this.components);
+            this.amarelo2 = new System.Windows.Forms.Timer(this.components);
             this.timer2 = new System.Windows.Forms.Timer(this.components);
             this.toolStrip1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // toolStrip1
@@ -85,7 +91,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(181, 125);
+            this.label1.Location = new System.Drawing.Point(173, 66);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(39, 18);
             this.label1.TabIndex = 3;
@@ -95,7 +101,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(626, 125);
+            this.label2.Location = new System.Drawing.Point(628, 66);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(70, 18);
             this.label2.TabIndex = 4;
@@ -116,18 +122,9 @@
             this.label3.TabIndex = 12;
             this.label3.Text = "label3";
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Location = new System.Drawing.Point(150, 192);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(100, 82);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox1.TabIndex = 13;
-            this.pictureBox1.TabStop = false;
-            // 
             // pictureBox2
             // 
-            this.pictureBox2.Location = new System.Drawing.Point(611, 192);
+            this.pictureBox2.Location = new System.Drawing.Point(611, 125);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(100, 82);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -136,7 +133,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(163, 340);
+            this.button1.Location = new System.Drawing.Point(147, 358);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 15;
@@ -146,28 +143,73 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(387, 340);
+            this.button2.Location = new System.Drawing.Point(383, 358);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 16;
             this.button2.Text = "DESLIGAR";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(611, 340);
+            this.button3.Location = new System.Drawing.Point(611, 358);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(100, 23);
             this.button3.TabIndex = 17;
             this.button3.Text = "EMERGENCIA";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // vermelho1
+            // 
+            this.vermelho1.Enabled = true;
+            this.vermelho1.Interval = 3000;
+            this.vermelho1.Tick += new System.EventHandler(this.vermelho1_Tick);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(147, 125);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(100, 82);
+            this.pictureBox1.TabIndex = 13;
+            this.pictureBox1.TabStop = false;
+            // 
+            // vermelho2
+            // 
+            this.vermelho2.Enabled = true;
+            this.vermelho2.Interval = 3000;
+            this.vermelho2.Tick += new System.EventHandler(this.vermelho2_Tick);
+            // 
+            // amarelo
+            // 
+            this.amarelo.Enabled = true;
+            this.amarelo.Interval = 1000;
+            this.amarelo.Tick += new System.EventHandler(this.amarelo_Tick);
+            // 
+            // verde1
+            // 
+            this.verde1.Enabled = true;
+            this.verde1.Interval = 2000;
+            this.verde1.Tick += new System.EventHandler(this.verde1_Tick);
+            // 
+            // verde2
+            // 
+            this.verde2.Enabled = true;
+            this.verde2.Interval = 2000;
+            this.verde2.Tick += new System.EventHandler(this.verde2_Tick);
+            // 
+            // amarelo2
+            // 
+            this.amarelo2.Enabled = true;
+            this.amarelo2.Interval = 1000;
+            this.amarelo2.Tick += new System.EventHandler(this.amarelo2_Tick);
             // 
             // timer2
             // 
             this.timer2.Enabled = true;
-            this.timer2.Interval = 1000;
-            this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
-            // 
+            this.timer2.Interval = 2000;
+         
             // Avenida
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -187,8 +229,8 @@
             this.Load += new System.EventHandler(this.Avenida_Load);
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -204,11 +246,17 @@
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.ToolStripLabel toolStripLabel1;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Timer vermelho1;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Timer vermelho2;
+        private System.Windows.Forms.Timer amarelo;
+        private System.Windows.Forms.Timer verde1;
+        private System.Windows.Forms.Timer verde2;
+        private System.Windows.Forms.Timer amarelo2;
         private System.Windows.Forms.Timer timer2;
     }
 }

@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Aluno\\Desktop\\IFACI\\AULA 3\\Atividade 3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{701B93D8-E305-4DB7-AA59-80D189329669}|Atividade 3\\Atividade 3.csproj|C:\\Users\\Aluno\\Desktop\\IFACI\\AULA 3\\Atividade 3\\atividade 3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{701B93D8-E305-4DB7-AA59-80D189329669}|Atividade 3\\Atividade 3.csproj|c:\\users\\aluno\\desktop\\ifaci\\aula 3\\atividade 3\\atividade 3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{701B93D8-E305-4DB7-AA59-80D189329669}|Atividade 3\\Atividade 3.csproj|solutionrelative:atividade 3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{701B93D8-E305-4DB7-AA59-80D189329669}|Atividade 3\\Atividade 3.csproj|c:\\users\\aluno\\desktop\\ifaci\\aula 3\\atividade 3\\atividade 3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{701B93D8-E305-4DB7-AA59-80D189329669}|Atividade 3\\Atividade 3.csproj|solutionrelative:atividade 3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{701B93D8-E305-4DB7-AA59-80D189329669}|Atividade 3\\Atividade 3.csproj|c:\\users\\aluno\\desktop\\ifaci\\aula 3\\atividade 3\\atividade 3\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{701B93D8-E305-4DB7-AA59-80D189329669}|Atividade 3\\Atividade 3.csproj|solutionrelative:atividade 3\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,20 +22,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\IFACI\\AULA 3\\Atividade 3\\Atividade 3\\Form1.cs",
-              "RelativeDocumentMoniker": "Atividade 3\\Form1.cs",
-              "ToolTip": "C:\\Users\\Aluno\\Desktop\\IFACI\\AULA 3\\Atividade 3\\Atividade 3\\Form1.cs",
-              "RelativeToolTip": "Atividade 3\\Form1.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAADwvzkAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\IFACI\\AULA 3\\Atividade 3\\Atividade 3\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Atividade 3\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Desktop\\IFACI\\AULA 3\\Atividade 3\\Atividade 3\\Form1.Designer.cs",
+              "RelativeToolTip": "Atividade 3\\Form1.Designer.cs",
+              "ViewState": "AgIAAL8AAAAAAAAAAAAqwNMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T00:12:24.4Z",
-              "IsPinned": true,
+              "WhenOpened": "2025-03-13T00:37:43.022Z",
               "EditorCaption": ""
             },
             {
@@ -43,9 +46,21 @@
               "ToolTip": "C:\\Users\\Aluno\\Desktop\\IFACI\\AULA 3\\Atividade 3\\Atividade 3\\Form1.cs [Design]",
               "RelativeToolTip": "Atividade 3\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T00:11:56.178Z",
-              "IsPinned": true,
+              "WhenOpened": "2025-03-13T00:01:24.919Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\IFACI\\AULA 3\\Atividade 3\\Atividade 3\\Form1.cs",
+              "RelativeDocumentMoniker": "Atividade 3\\Form1.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Desktop\\IFACI\\AULA 3\\Atividade 3\\Atividade 3\\Form1.cs",
+              "RelativeToolTip": "Atividade 3\\Form1.cs",
+              "ViewState": "AgIAAJkAAAAAAAAAAAAiwKIAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T23:56:33.73Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Aluno\\Desktop\\Aula_04\\Aula4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{74AE48D0-2FDA-4D87-9A57-62DC83A2A6E1}|Aula4\\Aula4.csproj|c:\\users\\aluno\\desktop\\aula_04\\aula4\\aula4\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74AE48D0-2FDA-4D87-9A57-62DC83A2A6E1}|Aula4\\Aula4.csproj|solutionrelative:aula4\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74AE48D0-2FDA-4D87-9A57-62DC83A2A6E1}|Aula4\\Aula4.csproj|c:\\users\\aluno\\desktop\\aula_04\\aula4\\aula4\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{74AE48D0-2FDA-4D87-9A57-62DC83A2A6E1}|Aula4\\Aula4.csproj|solutionrelative:aula4\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\Aula_04\\Aula4\\Aula4\\Form1.cs",
+              "RelativeDocumentMoniker": "Aula4\\Form1.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Desktop\\Aula_04\\Aula4\\Aula4\\Form1.cs*",
+              "RelativeToolTip": "Aula4\\Form1.cs*",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAUwF4AAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T22:13:38.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\Aula_04\\Aula4\\Aula4\\Form1.cs",
+              "RelativeDocumentMoniker": "Aula4\\Form1.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Desktop\\Aula_04\\Aula4\\Aula4\\Form1.cs [Design]*",
+              "RelativeToolTip": "Aula4\\Form1.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T22:01:48.12Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

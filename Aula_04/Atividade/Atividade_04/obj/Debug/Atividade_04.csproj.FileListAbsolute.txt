@@ -1,0 +1,10 @@
+C:\Users\Aluno\Desktop\IFACI\Aula_04\Atividade\Atividade_04\obj\Debug\Atividade_04.csproj.AssemblyReference.cache
+C:\Users\Aluno\Desktop\IFACI\Aula_04\Atividade\Atividade_04\obj\Debug\Atividade_04.Form1.resources
+C:\Users\Aluno\Desktop\IFACI\Aula_04\Atividade\Atividade_04\obj\Debug\Atividade_04.Properties.Resources.resources
+C:\Users\Aluno\Desktop\IFACI\Aula_04\Atividade\Atividade_04\obj\Debug\Atividade_04.csproj.GenerateResource.cache
+C:\Users\Aluno\Desktop\IFACI\Aula_04\Atividade\Atividade_04\obj\Debug\Atividade_04.csproj.CoreCompileInputs.cache
+C:\Users\Aluno\Desktop\IFACI\Aula_04\Atividade\Atividade_04\bin\Debug\Atividade_04.exe.config
+C:\Users\Aluno\Desktop\IFACI\Aula_04\Atividade\Atividade_04\bin\Debug\Atividade_04.exe
+C:\Users\Aluno\Desktop\IFACI\Aula_04\Atividade\Atividade_04\bin\Debug\Atividade_04.pdb
+C:\Users\Aluno\Desktop\IFACI\Aula_04\Atividade\Atividade_04\obj\Debug\Atividade_04.exe
+C:\Users\Aluno\Desktop\IFACI\Aula_04\Atividade\Atividade_04\obj\Debug\Atividade_04.pdb

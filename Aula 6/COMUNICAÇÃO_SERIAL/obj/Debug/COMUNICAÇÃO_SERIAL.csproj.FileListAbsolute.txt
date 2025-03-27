@@ -1,0 +1,5 @@
+C:\Users\Aluno\Desktop\IFACI\Aula 6\COMUNICAÇÃO_SERIAL\obj\Debug\COMUNICAÇÃO_SERIAL.csproj.AssemblyReference.cache
+C:\Users\Aluno\Desktop\IFACI\Aula 6\COMUNICAÇÃO_SERIAL\obj\Debug\COMUNICAÇÃO_SERIAL.Form1.resources
+C:\Users\Aluno\Desktop\IFACI\Aula 6\COMUNICAÇÃO_SERIAL\obj\Debug\COMUNICAÇÃO_SERIAL.Properties.Resources.resources
+C:\Users\Aluno\Desktop\IFACI\Aula 6\COMUNICAÇÃO_SERIAL\obj\Debug\COMUNICAÇÃO_SERIAL.csproj.GenerateResource.cache
+C:\Users\Aluno\Desktop\IFACI\Aula 6\COMUNICAÇÃO_SERIAL\obj\Debug\COMUNICAÇÃO_SERIAL.csproj.CoreCompileInputs.cache

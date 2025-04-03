@@ -1,0 +1,12 @@
+C:\Users\Aluno\Desktop\interfaces\C#\Temp_arduino\bin\Debug\Temp_arduino.exe.config
+C:\Users\Aluno\Desktop\interfaces\C#\Temp_arduino\bin\Debug\Temp_arduino.exe
+C:\Users\Aluno\Desktop\interfaces\C#\Temp_arduino\bin\Debug\Temp_arduino.pdb
+C:\Users\Aluno\Desktop\interfaces\C#\Temp_arduino\bin\Debug\ThermometerControl.dll
+C:\Users\Aluno\Desktop\interfaces\C#\Temp_arduino\obj\Debug\Temp_arduino.csproj.AssemblyReference.cache
+C:\Users\Aluno\Desktop\interfaces\C#\Temp_arduino\obj\Debug\Temp_arduino.Form1.resources
+C:\Users\Aluno\Desktop\interfaces\C#\Temp_arduino\obj\Debug\Temp_arduino.Properties.Resources.resources
+C:\Users\Aluno\Desktop\interfaces\C#\Temp_arduino\obj\Debug\Temp_arduino.csproj.GenerateResource.cache
+C:\Users\Aluno\Desktop\interfaces\C#\Temp_arduino\obj\Debug\Temp_arduino.csproj.CoreCompileInputs.cache
+C:\Users\Aluno\Desktop\interfaces\C#\Temp_arduino\obj\Debug\Temp_ard.D1C1C496.Up2Date
+C:\Users\Aluno\Desktop\interfaces\C#\Temp_arduino\obj\Debug\Temp_arduino.exe
+C:\Users\Aluno\Desktop\interfaces\C#\Temp_arduino\obj\Debug\Temp_arduino.pdb

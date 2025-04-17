@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "X:\\Documentos\\0-Senai\\601\\2-CST\\2k25_1\\3-IFACI_025\\1-AULAS\\IFACI-Aula 6\\TemperaturaC#v25\\Temperatura_ArduinoCSharp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA43BC9-5BFB-485D-9A17-78592AD139CC}|Temperatura_ArduinoCSharp.csproj|X:\\Documentos\\0-Senai\\601\\2-CST\\2k25_1\\3-IFACI_025\\1-AULAS\\IFACI-Aula 6\\TemperaturaC#v25\\Temperatura_ArduinoCSharp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3FA43BC9-5BFB-485D-9A17-78592AD139CC}|Temperatura_ArduinoCSharp.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA43BC9-5BFB-485D-9A17-78592AD139CC}|Temperatura_ArduinoCSharp.csproj|x:\\documentos\\0-senai\\601\\2-cst\\2k25_1\\3-ifaci_025\\1-aulas\\ifaci-aula 6\\temperaturac#v25\\temperatura_arduinocsharp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA43BC9-5BFB-485D-9A17-78592AD139CC}|Temperatura_ArduinoCSharp.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "X:\\Documentos\\0-Senai\\601\\2-CST\\2k25_1\\3-IFACI_025\\1-AULAS\\IFACI-Aula 6\\TemperaturaC#v25\\Temperatura_ArduinoCSharp\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "X:\\Documentos\\0-Senai\\601\\2-CST\\2k25_1\\3-IFACI_025\\1-AULAS\\IFACI-Aula 6\\TemperaturaC#v25\\Temperatura_ArduinoCSharp\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T12:17:27.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "X:\\Documentos\\0-Senai\\601\\2-CST\\2k25_1\\3-IFACI_025\\1-AULAS\\IFACI-Aula 6\\TemperaturaC#v25\\Temperatura_ArduinoCSharp\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "X:\\Documentos\\0-Senai\\601\\2-CST\\2k25_1\\3-IFACI_025\\1-AULAS\\IFACI-Aula 6\\TemperaturaC#v25\\Temperatura_ArduinoCSharp\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T12:05:49.92Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.AGaugeLabel aGaugeLabel1 = new System.Windows.Forms.AGaugeLabel();
-            System.Windows.Forms.AGaugeRange aGaugeRange1 = new System.Windows.Forms.AGaugeRange();
-            System.Windows.Forms.AGaugeRange aGaugeRange2 = new System.Windows.Forms.AGaugeRange();
-            System.Windows.Forms.AGaugeRange aGaugeRange3 = new System.Windows.Forms.AGaugeRange();
+            System.Windows.Forms.AGaugeLabel aGaugeLabel2 = new System.Windows.Forms.AGaugeLabel();
+            System.Windows.Forms.AGaugeRange aGaugeRange4 = new System.Windows.Forms.AGaugeRange();
+            System.Windows.Forms.AGaugeRange aGaugeRange5 = new System.Windows.Forms.AGaugeRange();
+            System.Windows.Forms.AGaugeRange aGaugeRange6 = new System.Windows.Forms.AGaugeRange();
             this.aGauge1 = new System.Windows.Forms.AGauge();
             this.aGauge2 = new System.Windows.Forms.AGauge();
             this.liga = new System.Windows.Forms.Button();
@@ -52,37 +52,37 @@
             this.aGauge1.BaseArcSweep = 270;
             this.aGauge1.BaseArcWidth = 2;
             this.aGauge1.Center = new System.Drawing.Point(100, 100);
-            aGaugeLabel1.Color = System.Drawing.SystemColors.MenuHighlight;
-            aGaugeLabel1.Name = "GaugeLabel1";
-            aGaugeLabel1.Position = new System.Drawing.Point(0, 0);
-            aGaugeLabel1.Text = null;
-            this.aGauge1.GaugeLabels.Add(aGaugeLabel1);
-            aGaugeRange1.Color = System.Drawing.Color.Lime;
-            aGaugeRange1.EndValue = 50F;
-            aGaugeRange1.InnerRadius = 45;
-            aGaugeRange1.InRange = false;
-            aGaugeRange1.Name = "baixa";
-            aGaugeRange1.OuterRadius = 80;
-            aGaugeRange1.StartValue = 0F;
-            aGaugeRange2.Color = System.Drawing.Color.Yellow;
-            aGaugeRange2.EndValue = 100F;
-            aGaugeRange2.InnerRadius = 45;
-            aGaugeRange2.InRange = false;
-            aGaugeRange2.Name = "Médio";
-            aGaugeRange2.OuterRadius = 80;
-            aGaugeRange2.StartValue = 50F;
-            aGaugeRange3.Color = System.Drawing.Color.Red;
-            aGaugeRange3.EndValue = 150F;
-            aGaugeRange3.InnerRadius = 45;
-            aGaugeRange3.InRange = false;
-            aGaugeRange3.Name = "Alto";
-            aGaugeRange3.OuterRadius = 80;
-            aGaugeRange3.StartValue = 100F;
-            this.aGauge1.GaugeRanges.Add(aGaugeRange1);
-            this.aGauge1.GaugeRanges.Add(aGaugeRange2);
-            this.aGauge1.GaugeRanges.Add(aGaugeRange3);
+            aGaugeLabel2.Color = System.Drawing.SystemColors.MenuHighlight;
+            aGaugeLabel2.Name = "GaugeLabel1";
+            aGaugeLabel2.Position = new System.Drawing.Point(0, 0);
+            aGaugeLabel2.Text = null;
+            this.aGauge1.GaugeLabels.Add(aGaugeLabel2);
+            aGaugeRange4.Color = System.Drawing.Color.Lime;
+            aGaugeRange4.EndValue = 33F;
+            aGaugeRange4.InnerRadius = 45;
+            aGaugeRange4.InRange = false;
+            aGaugeRange4.Name = "baixa";
+            aGaugeRange4.OuterRadius = 80;
+            aGaugeRange4.StartValue = 0F;
+            aGaugeRange5.Color = System.Drawing.Color.Yellow;
+            aGaugeRange5.EndValue = 66F;
+            aGaugeRange5.InnerRadius = 45;
+            aGaugeRange5.InRange = false;
+            aGaugeRange5.Name = "Médio";
+            aGaugeRange5.OuterRadius = 80;
+            aGaugeRange5.StartValue = 33F;
+            aGaugeRange6.Color = System.Drawing.Color.Red;
+            aGaugeRange6.EndValue = 100F;
+            aGaugeRange6.InnerRadius = 45;
+            aGaugeRange6.InRange = false;
+            aGaugeRange6.Name = "Alto";
+            aGaugeRange6.OuterRadius = 80;
+            aGaugeRange6.StartValue = 66F;
+            this.aGauge1.GaugeRanges.Add(aGaugeRange4);
+            this.aGauge1.GaugeRanges.Add(aGaugeRange5);
+            this.aGauge1.GaugeRanges.Add(aGaugeRange6);
             this.aGauge1.Location = new System.Drawing.Point(67, 97);
-            this.aGauge1.MaxValue = 150F;
+            this.aGauge1.MaxValue = 100F;
             this.aGauge1.MinValue = 0F;
             this.aGauge1.Name = "aGauge1";
             this.aGauge1.NeedleColor1 = System.Windows.Forms.AGaugeNeedleColor.Gray;
@@ -97,7 +97,7 @@
             this.aGauge1.ScaleLinesMajorColor = System.Drawing.Color.Black;
             this.aGauge1.ScaleLinesMajorInnerRadius = 70;
             this.aGauge1.ScaleLinesMajorOuterRadius = 80;
-            this.aGauge1.ScaleLinesMajorStepValue = 50F;
+            this.aGauge1.ScaleLinesMajorStepValue = 10F;
             this.aGauge1.ScaleLinesMajorWidth = 2;
             this.aGauge1.ScaleLinesMinorColor = System.Drawing.Color.Gray;
             this.aGauge1.ScaleLinesMinorInnerRadius = 75;
@@ -115,6 +115,7 @@
             this.aGauge1.Text = "aGauge1";
             this.aGauge1.Value = 0F;
             this.aGauge1.ValueInRangeChanged += new System.EventHandler<System.Windows.Forms.ValueInRangeChangedEventArgs>(this.aGauge1_ValueInRangeChanged);
+            this.aGauge1.Click += new System.EventHandler(this.lerDadosSerial);
             // 
             // aGauge2
             // 
@@ -125,8 +126,8 @@
             this.aGauge2.BaseArcWidth = 2;
             this.aGauge2.Center = new System.Drawing.Point(100, 100);
             this.aGauge2.Location = new System.Drawing.Point(369, 96);
-            this.aGauge2.MaxValue = 400F;
-            this.aGauge2.MinValue = -100F;
+            this.aGauge2.MaxValue = 80F;
+            this.aGauge2.MinValue = -10F;
             this.aGauge2.Name = "aGauge2";
             this.aGauge2.NeedleColor1 = System.Windows.Forms.AGaugeNeedleColor.Gray;
             this.aGauge2.NeedleColor2 = System.Drawing.Color.DimGray;
@@ -140,7 +141,7 @@
             this.aGauge2.ScaleLinesMajorColor = System.Drawing.Color.Black;
             this.aGauge2.ScaleLinesMajorInnerRadius = 70;
             this.aGauge2.ScaleLinesMajorOuterRadius = 80;
-            this.aGauge2.ScaleLinesMajorStepValue = 50F;
+            this.aGauge2.ScaleLinesMajorStepValue = 10F;
             this.aGauge2.ScaleLinesMajorWidth = 2;
             this.aGauge2.ScaleLinesMinorColor = System.Drawing.Color.Gray;
             this.aGauge2.ScaleLinesMinorInnerRadius = 75;
@@ -190,7 +191,6 @@
             // 
             // serialPort1
             // 
-            this.serialPort1.ReadTimeout = 1;
             this.serialPort1.DataReceived += new System.IO.Ports.SerialDataReceivedEventHandler(this.serialPort1_DataReceived);
             // 
             // comboBox1
@@ -200,6 +200,7 @@
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 21);
             this.comboBox1.TabIndex = 5;
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // btConectar
             // 

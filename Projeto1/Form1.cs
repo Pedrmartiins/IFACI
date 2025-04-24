@@ -19,6 +19,9 @@ namespace Projeto1
             pictureBox1.Image = Image.FromFile("C:\\Users\\Aluno\\Desktop\\IFACI\\Projeto1\\Imagens\\cinza.bmp");
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             atualizarListaCOMs();
+
+            aGauge1.Value = 10;
+            aGauge1.Update();
         }
 
         private void aGauge1_ValueInRangeChanged(object sender, ValueInRangeChangedEventArgs e)
@@ -36,7 +39,7 @@ namespace Projeto1
             if (serialPort1.IsOpen)
             {
                 
-                serialPort1.WriteLine("1");
+                serialPort1.WriteLine("8");
             }
 
         }
@@ -48,7 +51,8 @@ namespace Projeto1
             if (serialPort1.IsOpen)
             {
                 
-                serialPort1.WriteLine("0");
+                serialPort1.WriteLine("9");
+               
             }
         }
         private void atualizarListaCOMs()
@@ -135,15 +139,90 @@ namespace Projeto1
 
         private void lerDadosSerial (object sender, EventArgs e)
         {
-            string temperatura, tensao, dados;
-       
-            dados = serialPort1.ReadExisting();
 
-            serialPort1.DiscardInBuffer();
+            {
+                string temperatura = "", tensao = "", dados;
+                dados = serialPort1.ReadLine().Trim();  // Lê a linha da serial e remove espaços extras
+
+                // Verifique se a linha contém o caracter '/' e se ela pode ser dividida corretamente
+                if (dados.Contains("/") && dados.Split('/').Length == 2)
+                {
+                    try
+                    {
+                        // Divida os dados e obtenha a tensão e a temperatura
+                        string[] partes = dados.Split('/');
+                        tensao = partes[0];
+                        temperatura = partes[1];
+
+                        // Tente converter os valores para float
+                        float tensaoFloat, temperaturaFloat;
+                        if (float.TryParse(tensao, out tensaoFloat) && float.TryParse(temperatura, out temperaturaFloat))
+                        {
+
+                            float porcentagem = (tensaoFloat / 100.0f) * 20f;
+                            // Atualize o gauge com a tensão
+                            aGauge1.Value = porcentagem;
+                            aGauge1.Update();
+
+                            aGauge2.Value = temperaturaFloat/100;
+                            aGauge2.Update();  
+
+                            Console.WriteLine(dados,porcentagem);
+                         
+                        }
+                        else
+                        {
+                            Console.WriteLine("Erro na conversão dos dados: " + dados);
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        Console.WriteLine("Erro ao processar dados da serial: " + ex.Message);
+                    }
+                }
+                else
+                {
+                    // Caso os dados não estejam no formato esperado
+                    Console.WriteLine("Formato de dados inesperado: " + dados);
+                }
+
+
+            }
+
+
+                //string temperatura, tensao, dados;
+
+                //dados = serialPort1.ReadLine();
+
+
+                //temperatura = dados.Split('/')[1];
+                //tensao = dados.Split('/')[0];
+
+
+
+                ////aGauge1.Value = Convert.ToSingle(temperatura);
+                ////aGauge1.Update();
+
+                //aGauge1.Value = Convert.ToSingle(tensao);
+                //aGauge1.Update();
+
+                //if (dados != "")
+                //{
+                //    Console.WriteLine(dados);
+                //}
+
+
+
+                serialPort1.DiscardInBuffer();
             serialPort1.DiscardOutBuffer();
 
 
-            Console.WriteLine(dados);
+           
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

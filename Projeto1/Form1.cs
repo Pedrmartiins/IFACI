@@ -154,13 +154,13 @@ namespace Projeto1
                         tensao = partes[0];
                         temperatura = partes[1];
 
-                        // Tente converter os valores para float
+                        
                         float tensaoFloat, temperaturaFloat;
                         if (float.TryParse(tensao, out tensaoFloat) && float.TryParse(temperatura, out temperaturaFloat))
                         {
 
                             float porcentagem = (tensaoFloat / 100.0f) * 20f;
-                            // Atualize o gauge com a tensão
+                    
                             aGauge1.Value = porcentagem;
                             aGauge1.Update();
 
@@ -182,7 +182,6 @@ namespace Projeto1
                 }
                 else
                 {
-                    // Caso os dados não estejam no formato esperado
                     Console.WriteLine("Formato de dados inesperado: " + dados);
                 }
 

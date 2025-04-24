@@ -110,7 +110,7 @@ namespace Projeto1
                 }
                 if (serialPort1.IsOpen)
                 {
-                    btConectar.Text = "desconectar";
+                    btConectar.Text = "DESCONECTAR";
                     comboBox1.Enabled = false;
                 }
             }
@@ -221,6 +221,16 @@ namespace Projeto1
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
         {
 
         }

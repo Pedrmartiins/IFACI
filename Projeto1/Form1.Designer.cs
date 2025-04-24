@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.AGaugeLabel aGaugeLabel2 = new System.Windows.Forms.AGaugeLabel();
-            System.Windows.Forms.AGaugeRange aGaugeRange4 = new System.Windows.Forms.AGaugeRange();
-            System.Windows.Forms.AGaugeRange aGaugeRange5 = new System.Windows.Forms.AGaugeRange();
-            System.Windows.Forms.AGaugeRange aGaugeRange6 = new System.Windows.Forms.AGaugeRange();
+            System.Windows.Forms.AGaugeLabel aGaugeLabel3 = new System.Windows.Forms.AGaugeLabel();
+            System.Windows.Forms.AGaugeRange aGaugeRange7 = new System.Windows.Forms.AGaugeRange();
+            System.Windows.Forms.AGaugeRange aGaugeRange8 = new System.Windows.Forms.AGaugeRange();
+            System.Windows.Forms.AGaugeRange aGaugeRange9 = new System.Windows.Forms.AGaugeRange();
             this.aGauge1 = new System.Windows.Forms.AGauge();
             this.aGauge2 = new System.Windows.Forms.AGauge();
             this.liga = new System.Windows.Forms.Button();
@@ -41,6 +41,10 @@
             this.serialPort1 = new System.IO.Ports.SerialPort(this.components);
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.btConectar = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -52,35 +56,35 @@
             this.aGauge1.BaseArcSweep = 270;
             this.aGauge1.BaseArcWidth = 2;
             this.aGauge1.Center = new System.Drawing.Point(100, 100);
-            aGaugeLabel2.Color = System.Drawing.SystemColors.MenuHighlight;
-            aGaugeLabel2.Name = "GaugeLabel1";
-            aGaugeLabel2.Position = new System.Drawing.Point(0, 0);
-            aGaugeLabel2.Text = null;
-            this.aGauge1.GaugeLabels.Add(aGaugeLabel2);
-            aGaugeRange4.Color = System.Drawing.Color.Lime;
-            aGaugeRange4.EndValue = 33F;
-            aGaugeRange4.InnerRadius = 45;
-            aGaugeRange4.InRange = false;
-            aGaugeRange4.Name = "baixa";
-            aGaugeRange4.OuterRadius = 80;
-            aGaugeRange4.StartValue = 0F;
-            aGaugeRange5.Color = System.Drawing.Color.Yellow;
-            aGaugeRange5.EndValue = 66F;
-            aGaugeRange5.InnerRadius = 45;
-            aGaugeRange5.InRange = false;
-            aGaugeRange5.Name = "Médio";
-            aGaugeRange5.OuterRadius = 80;
-            aGaugeRange5.StartValue = 33F;
-            aGaugeRange6.Color = System.Drawing.Color.Red;
-            aGaugeRange6.EndValue = 100F;
-            aGaugeRange6.InnerRadius = 45;
-            aGaugeRange6.InRange = false;
-            aGaugeRange6.Name = "Alto";
-            aGaugeRange6.OuterRadius = 80;
-            aGaugeRange6.StartValue = 66F;
-            this.aGauge1.GaugeRanges.Add(aGaugeRange4);
-            this.aGauge1.GaugeRanges.Add(aGaugeRange5);
-            this.aGauge1.GaugeRanges.Add(aGaugeRange6);
+            aGaugeLabel3.Color = System.Drawing.SystemColors.MenuHighlight;
+            aGaugeLabel3.Name = "GaugeLabel1";
+            aGaugeLabel3.Position = new System.Drawing.Point(0, 0);
+            aGaugeLabel3.Text = null;
+            this.aGauge1.GaugeLabels.Add(aGaugeLabel3);
+            aGaugeRange7.Color = System.Drawing.Color.Lime;
+            aGaugeRange7.EndValue = 33F;
+            aGaugeRange7.InnerRadius = 45;
+            aGaugeRange7.InRange = false;
+            aGaugeRange7.Name = "baixa";
+            aGaugeRange7.OuterRadius = 80;
+            aGaugeRange7.StartValue = 0F;
+            aGaugeRange8.Color = System.Drawing.Color.Yellow;
+            aGaugeRange8.EndValue = 66F;
+            aGaugeRange8.InnerRadius = 45;
+            aGaugeRange8.InRange = false;
+            aGaugeRange8.Name = "Médio";
+            aGaugeRange8.OuterRadius = 80;
+            aGaugeRange8.StartValue = 33F;
+            aGaugeRange9.Color = System.Drawing.Color.Red;
+            aGaugeRange9.EndValue = 100F;
+            aGaugeRange9.InnerRadius = 45;
+            aGaugeRange9.InRange = false;
+            aGaugeRange9.Name = "Alto";
+            aGaugeRange9.OuterRadius = 80;
+            aGaugeRange9.StartValue = 66F;
+            this.aGauge1.GaugeRanges.Add(aGaugeRange7);
+            this.aGauge1.GaugeRanges.Add(aGaugeRange8);
+            this.aGauge1.GaugeRanges.Add(aGaugeRange9);
             this.aGauge1.Location = new System.Drawing.Point(67, 97);
             this.aGauge1.MaxValue = 100F;
             this.aGauge1.MinValue = 0F;
@@ -212,12 +216,53 @@
             this.btConectar.UseVisualStyleBackColor = true;
             this.btConectar.Click += new System.EventHandler(this.btConectar_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(33, 514);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(134, 13);
+            this.label1.TabIndex = 7;
+            this.label1.Text = "ESCOLHA A PORTA COM";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(121, 67);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(101, 13);
+            this.label2.TabIndex = 8;
+            this.label2.Text = "POTENCIOMETRO";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(430, 67);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(89, 13);
+            this.label3.TabIndex = 9;
+            this.label3.Text = "TEMPERATURA";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(712, 97);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(91, 13);
+            this.label4.TabIndex = 10;
+            this.label4.Text = "INDICADOR LED";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(852, 579);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.btConectar);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.pictureBox1);
@@ -226,7 +271,8 @@
             this.Controls.Add(this.aGauge2);
             this.Controls.Add(this.aGauge1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Projeto1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -243,6 +289,10 @@
         private System.IO.Ports.SerialPort serialPort1;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Button btConectar;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
     }
 }
 
